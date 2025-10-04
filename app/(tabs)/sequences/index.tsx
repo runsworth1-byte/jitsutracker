@@ -126,11 +126,11 @@ const styles = StyleSheet.create({
 
   listPad: { paddingBottom: 16 },
 
-  // white cards for each sequence item
+  // white cards  yellow borders for each sequence item
   card: {
     backgroundColor: "#fff",
     borderWidth: 1,
-    borderColor: "#dfe7ee",
+    borderColor: "#eeebdfff",
     borderRadius: 10,
     padding: 14,
     marginBottom: 10,
