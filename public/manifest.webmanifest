@@ -1,0 +1,21 @@
+{
+  "name": "JitsuTracker",
+  "short_name": "JitsuTracker",
+  "description": "Track, organize, and study BJJ techniques—fast and offline-ready.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0f14",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "/icons/screen-techniques.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow" }
+  ],
+  "prefer_related_applications": false
+}

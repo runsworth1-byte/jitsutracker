@@ -1,0 +1,44 @@
+﻿# JitsuTracker .gitignore (Expo/React Native + Web)
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native artifacts (ignore even if you don't use them yet)
+android/
+ios/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Local env files
+.env*.local
+.env*
+
+# TypeScript
+*.tsbuildinfo
+
+# Build dirs
+.build/
+build/
+
+# Examples / local-only
+app-example
