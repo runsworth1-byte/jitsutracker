@@ -4,11 +4,16 @@
   "private": true,
   "main": "expo-router/entry",
   "scripts": {
+    "dev": "expo start --web",
     "build": "expo export --platform web --output-dir dist",
-    "web:build": "npm run build",
+    "preview": "http-server dist -p ${PORT:-5173} -c-1",
+    "web:build": "expo export --platform web",
     "start": "expo start",
     "web": "expo start --web",
     "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -52,9 +57,7 @@
     "@types/react-native": "^0.72.8",
     "eslint": "^9.25.0",
     "eslint-config-expo": "~9.2.0",
+    "http-server": "^14.1.1",
     "typescript": "~5.8.3"
-  },
-  "engines": {
-    "node": ">=18"
   }
 }
